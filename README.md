@@ -10,4 +10,5 @@ https://learn.adafruit.com/adafruit-sht31-d-temperature-and-humidity-sensor-brea
 1. sudo apt update && sudo apt upgrade
 2. sudo pip3 install adafruit-circuitpython-sht31d
 3. sudo raspi-config (make sure i2c interface its enabled)
-4. i2cdetect -y 1
+4. i2cdetect -y 1 (check if the sensors its detected on the i2c interface)
+5. python3 test.py (run the scripts and get the readings)
